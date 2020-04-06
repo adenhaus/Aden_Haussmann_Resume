@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 30px;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'skills header header header header'
+    'skills education education projects projects'
+    'skills education education projects projects'
+    'skills work work projects projects'
+    'skills work work projects projects';
+  grid-gap: 10px;
+}
+
+.header { grid-area: header; //background-color: red; }
+.contact { grid-area: contact; //background-color: green;}
+.education { grid-area: education; //background-color: blue;}
+.work { grid-area: work; //background-color: yellow;}
+.skills { grid-area: skills; //background-color: pink;}
+.projects { grid-area: projects; //background-color: purple;}
+
+.skills {
+  margin-right: 40px;
+  padding: 40px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.bio {
+  padding-right: 10px;
+  list-style-type: none;
+}
+
+.border {
+  border-style: none solid none none;
+  border-width: 1px;
+  border-color: #d6d6d6;
+}
+
+.skills-list {
+  padding-right: 10px;
+  border-width: 7px;
+  list-style-type: none;
+}
+
+.fa {
+  width: 50px;
+}
+
+.fa-github:hover {
+  color: grey;
+}
+
+.fa-instagram:hover {
+  color: #a860b5;
+}
+
+.fa-envelope:hover {
+  color: #b56060;
+}
+
+.fa-linkedin:hover {
+  color: #60a1b5;
+}
+
+.skills-sub {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 0px;
+}
+
+li {
+  padding-left: 0px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+  border-style: none none none solid;
+  padding-left: 10px;
+  border-width: 10px;
+  border-color: #f5e08e;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+td {
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+h4 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+}
+
+p {
+  margin-top: 0px;
+  padding-top: 0px;
+}
